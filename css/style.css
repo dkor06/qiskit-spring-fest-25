@@ -350,6 +350,11 @@ img{
     padding: 0 1rem;
   }
 
+  .about-section{
+    background-attachment: scroll;
+    background-position: center;
+  }
+  
   .about-heading{
     text-align: center;
     text-transform: uppercase;
