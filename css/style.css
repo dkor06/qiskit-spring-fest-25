@@ -561,7 +561,7 @@ img{
 /* --- CONTACT SECTION --- */
 .contact-section {
   padding: 5rem 0;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url("../assets/img/100years.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url("../assets/img/100years.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
