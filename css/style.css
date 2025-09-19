@@ -447,7 +447,7 @@ img{
   }
 }
 
-@media (max-height: 740px) {
+@media (max-height: 770px) {
   .hero-section h1{
     line-height: 5rem;
   }
@@ -647,3 +647,4 @@ img{
   background-color: #000;
   color: rgba(255, 255, 255, 0.5);
 }
+
