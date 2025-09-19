@@ -447,6 +447,16 @@ img{
   }
 }
 
+@media (max-height: 740px) {
+  .hero-section h1{
+    line-height: 5rem;
+  }
+
+  .hero-section h4{
+    padding-top: 1.3rem;
+  }
+}
+
 .countdown{
   gap: 1.5rem;
 }
