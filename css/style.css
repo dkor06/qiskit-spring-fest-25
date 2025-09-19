@@ -180,10 +180,6 @@ img{
     font-size: 1.5rem;
   }
 
-  .projects-section .featured-description{
-    font-size: 1.5em;
-  }
-
   .contact-section .contact-map{
     width: 45%;
     height: 45vh;
@@ -230,6 +226,13 @@ img{
   background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75));
 }
 
+.hero-section h4{
+  font-weight: 900;
+  text-transform: uppercase;
+  font-family: Poppins;
+  font-size: 2rem;
+}
+
 .hero-section h1 {
   font-size: 4rem;
   font-weight: 900;
@@ -254,18 +257,19 @@ img{
   margin-top: 1.5rem;
   text-decoration: none;
   text-transform: uppercase;
-  transition: background-color 1s ease;
+  transition: background-color 1s ease, color 0.5s ease, transform 1s ease;
+  display: inline-block;
 }
 
 .hero-button:hover {
   background-color: #faa307;
   color: #fff;
-  transition: color 0.5s ease;
+  transform: scale(1.2);
 }
 
 /* --- COUNTDOWN --- */
 .countdown {
-  margin-top: 2rem;
+  margin-top: 6rem;
   display: flex;
   justify-content: center;
   gap: 1.5rem;
@@ -323,9 +327,12 @@ img{
     font-size: 1.1rem;
   }
 
+  .hero-button{
+    font-size: 1.2rem;
+  }
   .countdown {
-    margin-top: 5rem;
-    padding: 0 5rem;       /* spacing from edges */
+    margin-top: 3rem;
+    padding: 0 4rem;       /* spacing from edges */
     box-sizing: border-box; /* includes padding in width */
     flex-wrap: wrap;       /* allow units to wrap if needed */
     justify-content: center;
@@ -348,6 +355,13 @@ img{
 
   .hero-section h1{
     padding: 0 1rem;
+    margin-top: 0;
+    margin-bottom: 0.7rem;
+  }
+
+  .hero-section h4{
+    margin-bottom: 0.7rem;
+    font-size: 1rem;
   }
   
   .about-heading{
@@ -377,9 +391,22 @@ img{
     letter-spacing: 0.05rem;
   }
 
+   .project-row.featured .project-description{
+    text-align: center;
+  }
+
+  .project-row.featured h4{
+    font-size: 1.8rem;
+  }
+
+  .project-row.featured p{
+    font-size: 1.1rem;
+  }
+
   .projects-section h4{
     font-size: 1.5rem;
   }
+
   .projects-section .project-description {
   line-height: 2em;
   font-size: 1rem;
@@ -409,7 +436,7 @@ img{
   }
 
   .contact-section .qiskit img{
-    width: 45%;
+    width: 60%;
     margin: 0 auto;
   }
   
@@ -420,9 +447,7 @@ img{
   }
 }
 
-
 .countdown{
-  margin-top: 6rem;
   gap: 1.5rem;
 }
 
@@ -470,12 +495,6 @@ img{
 /* --- PROJECTS SECTION --- */
 .projects-section {
   padding: 0;
-}
-
-.projects-section .featured-description {
-  padding: 2rem;
-  color: #e36414;
-  line-height: 2em;
 }
 
 .projects-section .project-info {
@@ -618,6 +637,3 @@ img{
   background-color: #000;
   color: rgba(255, 255, 255, 0.5);
 }
-
-
-
