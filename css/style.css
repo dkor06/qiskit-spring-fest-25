@@ -587,8 +587,8 @@ img{
   }
 
   .organizer-card img{
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
   }
 
   .organizer-card h4 {
@@ -869,4 +869,3 @@ img{
   background-color: #000;
   color: rgba(255, 255, 255, 0.5);
 }
-
