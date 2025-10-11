@@ -623,7 +623,19 @@ img{
   }
 
   .hero-section h4{
-    padding-top: 2rem;
+    padding-top: 3rem;
+  }
+}
+
+@media (max-height: 660px) {
+  .hero-section h1{
+    line-height: 4.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .hero-section h4{
+    padding-top: 3rem;
+    margin-bottom: 0.5rem;
   }
 }
 
@@ -633,6 +645,10 @@ img{
   }
   .site-logo{
     max-width: 8ch;
+  }
+
+  .countdown{
+    margin-top: 6rem;
   }
 }
 
@@ -723,6 +739,7 @@ img{
 .text-white-50 {
   color: rgba(255, 255, 255, 0.5) !important;
 }
+
 
 /* --- SPEAKER SECTION --- */
 .speaker-section {
@@ -869,4 +886,3 @@ img{
   background-color: #000;
   color: rgba(255, 255, 255, 0.5);
 }
-
