@@ -374,6 +374,13 @@ img{
   gap: 1.5rem;
 }
 
+.countdown h2{
+  font-size: 3rem;
+  font-weight: 900;
+  font-family: Poppins;
+  text-transform: uppercase;
+}
+
 .about-heading{
   text-align: center;
   text-transform: uppercase;
