@@ -253,8 +253,7 @@
             const now = new Date().getTime();
             let diff = targetDate - now;
 
-            if (diff <= 0) {
-                document.querySelector(".countdown").innerHTML = "<h2>It's here, Don't miss it!</h2>";
+            if (diff <= 0) {    
                 return;
             }
 
